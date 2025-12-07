@@ -1,0 +1,8 @@
+Pate yt link and get summary/key points or deailed notes for it.
+
+
+Idea:
+    download the video and get frames of it for every 30sec of the video
+    Extract all text from the frames and attach it to the respective str spaces 
+    get its audio then convert into text (a sophesticated SRT generator)
+    Give all this to the AI to make either detailed notes of summary or quizzess
