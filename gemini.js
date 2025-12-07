@@ -101,7 +101,7 @@ export async function getDetailedResponse(videoUrlOrId) {
   const videoId = extractVideoId(videoUrlOrId);
   if (!videoId) return "Invalid YouTube URL provided.";
 
-  const ai = new GoogleGenAI({ apiKey: "AIzaSyDS6j9JVhgJympCL6HEgW8tSi6xnprAK0U" });
+  const ai = new GoogleGenAI({ apiKey: "__paste__Your__key__here" });
 
   try {
     console.log(`Fetching transcript for ID: ${videoId}...`);
@@ -146,7 +146,7 @@ export async function GetQuizz(videoUrlOrId,noOfQuestions) {
   const videoId = extractVideoId(videoUrlOrId);
   if (!videoId) return "Invalid YouTube URL provided.";
 
-  const ai = new GoogleGenAI({ apiKey: "AIzaSyDS6j9JVhgJympCL6HEgW8tSi6xnprAK0U" });
+  const ai = new GoogleGenAI({ apiKey: "__paste__Your__key__here" });
 
   try {
     console.log(`Fetching transcript for ID: ${videoId}...`);
@@ -213,3 +213,4 @@ ${trimmedText}`;
   }
 
 }
+
